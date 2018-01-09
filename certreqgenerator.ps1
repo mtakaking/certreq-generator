@@ -4,17 +4,17 @@
 
 $subjectToReplace = @()
 #0
-$subjectToReplace += 'CN=www.example.com'
+$subjectToReplace += 'www.example.com'
 #1
-$subjectToReplace += 'OU=Organizational_Unit'
+$subjectToReplace += 'Organizational_Unit'
 #2
-$subjectToReplace += 'O=Organization'
+$subjectToReplace += 'Organization'
 #3
-$subjectToReplace += 'L=City'
+$subjectToReplace += 'City'
 #4
-$subjectToReplace += 'S=State'
+$subjectToReplace += 'State'
 #5
-$subjectToReplace += "C=Country"
+$subjectToReplace += "Country"
 
 # $subjectToReplace[x] = $subjectToReplaceWith[x]
 $subjectToReplaceWith = @()
